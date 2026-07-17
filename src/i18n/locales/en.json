@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "svg2rc — SVG to React Component",
+    "description": "Convert SVG into a React component (JSX or TSX) right in the browser. Open source, fully client-side."
+  },
+  "header": {
+    "tagline": "SVG → React Component",
+    "starAria": "Star on GitHub",
+    "repoAria": "Open repository on GitHub",
+    "languageAria": "Language",
+    "langPt": "PT",
+    "langEn": "EN"
+  },
+  "input": {
+    "title": "SVG Input",
+    "placeholder": "Paste a valid SVG here..."
+  },
+  "output": {
+    "title": "Component",
+    "nameLabel": "Component name",
+    "empty": "The code will appear here once you paste a valid SVG.",
+    "fixError": "Fix the SVG on the left to see the generated component."
+  },
+  "actions": {
+    "apply": "Apply changes",
+    "applyAria": "Apply SVG changes",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyAria": "Copy code",
+    "clipboardUnavailable": "Clipboard unavailable",
+    "download": "Download",
+    "downloadAria": "Download component"
+  },
+  "shortcut": {
+    "title": "Create a svg2rc shortcut?",
+    "descriptionNative": "Add svg2rc to your desktop or home screen to open it like an app, without typing the URL.",
+    "descriptionManual": "In Chrome/Edge: menu ⋮ → Install app / Create shortcut. On Safari (iOS): Share → Add to Home Screen.",
+    "dismiss": "Not now",
+    "accept": "Create shortcut",
+    "acknowledge": "OK, don't ask again"
+  },
+  "validation": {
+    "empty": "The panel is empty. Paste an SVG to get started.",
+    "noSvgTag": "No <svg> tag found in the content.",
+    "invalid": "Invalid SVG: {{message}}",
+    "rootNotSvg": "The root element must be <svg>.",
+    "generic": "Invalid SVG.",
+    "optimizeFailed": "Failed to optimize SVG: {{message}}",
+    "optimizeInvalid": "Optimized SVG is invalid."
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go home",
+    "pageFailedTitle": "This page didn't load",
+    "pageFailedBody": "Something went wrong on our end. You can try refreshing or head back home.",
+    "tryAgain": "Try again"
+  },
+  "dialog": {
+    "close": "Close"
+  }
+}

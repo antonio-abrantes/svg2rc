@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  svg2rc:
+    image: ghcr.io/antonio-abrantes/svg2rc:latest
+    networks:
+      - network_public
+    deploy:
+      replicas: 1
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers.svg2rc.rule=Host(`svg2rc.services2.tonilabs.space`)
+        - traefik.http.routers.svg2rc.entrypoints=websecure
+        - traefik.http.routers.svg2rc.tls.certresolver=letsencryptresolver
+        - traefik.http.services.svg2rc.loadbalancer.server.port=80
+
+networks:
+  network_public:
+    external: true

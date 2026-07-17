@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "svg2rc — SVG para componente React",
+    "description": "Converta SVG em componente React (JSX ou TSX) direto no navegador. Open source, 100% client-side."
+  },
+  "header": {
+    "tagline": "SVG → Componente React",
+    "starAria": "Estrelar no GitHub",
+    "repoAria": "Abrir repositório no GitHub",
+    "languageAria": "Idioma",
+    "langPt": "PT",
+    "langEn": "EN"
+  },
+  "input": {
+    "title": "Entrada SVG",
+    "placeholder": "Cole um SVG válido aqui..."
+  },
+  "output": {
+    "title": "Componente",
+    "nameLabel": "Nome do componente",
+    "empty": "O código aparecerá aqui assim que você colar um SVG válido.",
+    "fixError": "Corrija o SVG à esquerda para ver o componente gerado."
+  },
+  "actions": {
+    "apply": "Aplicar alterações",
+    "applyAria": "Aplicar alterações do SVG",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyAria": "Copiar código",
+    "clipboardUnavailable": "Clipboard indisponível",
+    "download": "Baixar",
+    "downloadAria": "Baixar componente"
+  },
+  "shortcut": {
+    "title": "Criar atalho do svg2rc?",
+    "descriptionNative": "Adicione o svg2rc à área de trabalho ou à tela inicial para abrir como um app, sem precisar digitar o endereço.",
+    "descriptionManual": "No Chrome/Edge: menu ⋮ → Instalar app / Criar atalho. No Safari (iOS): compartilhar → Adicionar à Tela de Início.",
+    "dismiss": "Agora não",
+    "accept": "Criar atalho",
+    "acknowledge": "Ok, não perguntar de novo"
+  },
+  "validation": {
+    "empty": "O painel está vazio. Cole um SVG para começar.",
+    "noSvgTag": "Nenhuma tag <svg> encontrada no conteúdo.",
+    "invalid": "SVG inválido: {{message}}",
+    "rootNotSvg": "O elemento raiz precisa ser <svg>.",
+    "generic": "SVG inválido.",
+    "optimizeFailed": "Falha ao otimizar SVG: {{message}}",
+    "optimizeInvalid": "SVG otimizado inválido."
+  },
+  "errors": {
+    "notFoundTitle": "Página não encontrada",
+    "notFoundBody": "A página que você procura não existe ou foi movida.",
+    "goHome": "Ir para o início",
+    "pageFailedTitle": "Esta página não carregou",
+    "pageFailedBody": "Algo deu errado do nosso lado. Você pode tentar atualizar ou voltar ao início.",
+    "tryAgain": "Tentar de novo"
+  },
+  "dialog": {
+    "close": "Fechar"
+  }
+}
