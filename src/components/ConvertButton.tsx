@@ -31,7 +31,7 @@ export function ConvertButton({ onClick, disabled, variant = "floating" }: Conve
       disabled={disabled}
       aria-label={applyAria}
       title={applyAria}
-      className={`group z-20 flex h-12 w-2 items-center justify-center rounded-full border shadow-lg transition-all ${
+      className={`group z-20 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border shadow-lg transition-all ${
         disabled
           ? "cursor-not-allowed border-border bg-secondary text-muted-foreground"
           : "border-primary bg-primary text-primary-foreground hover:scale-105 hover:shadow-xl"

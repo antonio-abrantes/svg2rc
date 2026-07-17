@@ -23,7 +23,7 @@ const ResizableHandle = ({
 }) => (
   <Separator
     className={cn(
-      "relative z-10 flex w-1 shrink-0 items-center justify-center",
+      "relative z-10 flex w-1 shrink-0 items-center justify-center overflow-visible",
       "bg-border hover:bg-primary/50 active:bg-primary/70",
       "cursor-col-resize",
       "focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-1",

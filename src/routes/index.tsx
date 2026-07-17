@@ -99,7 +99,7 @@ function ConverterApp() {
               <div className="flex h-full min-h-0 min-w-0">{inputPanel}</div>
             </ResizablePanel>
 
-            <ResizableHandle>
+            <ResizableHandle className="overflow-visible">
               <div
                 className="pointer-events-auto absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2"
                 onPointerDown={(e) => e.stopPropagation()}
