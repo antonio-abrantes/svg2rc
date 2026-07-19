@@ -17,7 +17,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "svg2rc — SVG para componente React" },
+      { title: "Svg2rc — SVG para componente React" },
       {
         name: "description",
         content:
@@ -64,6 +64,7 @@ function ConverterApp() {
       error={error}
       onChange={(v) => setInput(v)}
       onPaste={(v) => setInput(v, { isPaste: true })}
+      onFileLoad={(v) => setInput(v, { isFile: true })}
     />
   );
 

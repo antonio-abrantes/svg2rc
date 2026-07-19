@@ -53,9 +53,13 @@ export function useSvgConverter() {
   );
 
   const handleInputChange = useCallback(
-    (value: string, meta?: { isPaste?: boolean }) => {
+    (value: string, meta?: { isPaste?: boolean; isFile?: boolean }) => {
       const wasEmpty = input.trim().length === 0;
       setInput(value);
+      if (meta?.isFile) {
+        runConversion(value, format);
+        return;
+      }
       if (wasEmpty && (meta?.isPaste || value.trim().length > 0) && !hasEverConverted.current) {
         runConversion(value, format);
       } else if (value.trim().length === 0) {

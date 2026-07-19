@@ -15,6 +15,13 @@
     "title": "SVG Input",
     "placeholder": "Paste a valid SVG here..."
   },
+  "upload": {
+    "choose": "Choose file",
+    "chooseAria": "Choose SVG file",
+    "noneSelected": "No file selected",
+    "invalidType": "SVG files only",
+    "readError": "Could not read the file"
+  },
   "output": {
     "title": "Component",
     "nameLabel": "Component name",

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "svg2rc — SVG para componente React",
+    "title": "Svg2rc — SVG para componente React",
     "description": "Converta SVG em componente React (JSX ou TSX) direto no navegador. Open source, 100% client-side."
   },
   "header": {
@@ -13,7 +13,14 @@
   },
   "input": {
     "title": "Entrada SVG",
-    "placeholder": "Cole um SVG válido aqui..."
+    "placeholder": "Ou cole um SVG válido aqui..."
+  },
+  "upload": {
+    "choose": "Escolher arquivo",
+    "chooseAria": "Escolher arquivo SVG",
+    "noneSelected": "Nenhum arquivo selecionado",
+    "invalidType": "Apenas arquivos .svg",
+    "readError": "Não foi possível ler o arquivo"
   },
   "output": {
     "title": "Componente",

@@ -91,7 +91,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "svg2rc — SVG para componente React" },
+      { title: "Svg2rc — SVG para componente React" },
       {
         name: "description",
         content:
